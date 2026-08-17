@@ -4,219 +4,273 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedro Guths | Portfolio</title>
+    <title>Pedro Guths | Backend Developer</title>
 
     <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-
+    <!-- Fontes & Ícones -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-            href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Montserrat:wght@200;300;400;600;700&display=swap"
-            rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
 
-<header>
-    <div class="lista">
-        <ul>
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#sobre-mim">ABOUT ME</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#trabalhos">PROJECTS</a></li>
-            <li><a href="#contato">CONTACT</a></li>
-        </ul>
-    </div>
-</header>
+<div class="site-container">
 
+    <!-- ================= 1. LANDING PAGE / HERO ================= -->
+    <header id="hero" class="section-block hero-block">
 
-<section id="home" class="secao-principal">
+        <!-- Navbar -->
+        <nav class="top-nav">
+            <div class="logo">
+                <span class="logo-badge">PG</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#about">About</a>
+                <a href="#formation">Formation</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-right">
+                <a href="docs/PedroGuths_CV.pdf" class="btn-cv-pill" download>
+                    <i class="fa-solid fa-arrow-down"></i> Download CV
+                </a>
+            </div>
+        </nav>
 
-    <div class="main-content">
-        <h2>PEDRO</h2>
-        <h1>GUTHS</h1>
-        <h3>BACKEND DEVELOPER | BIOMEDICAL INFORMATICS STUDENT</h3>
+        <!-- Hero Body -->
+        <div class="hero-grid">
+            <div class="hero-left">
+                <h1>Hello!<br>I'm Pedro<br>Guths</h1>
 
-        <a href="docs/PedroGuths_CV.pdf" class="btn-cv" download>
-            Download Resume
-        </a>
+                <div class="social-row">
+                    <a href="https://github.com/guthspedro10" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/pedro-guths/" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:devguths@gmail.com" class="social-btn"><i class="fa-regular fa-envelope"></i></a>
+                    <span class="location-text">Porto Alegre, BR</span>
+                </div>
+            </div>
 
-    </div>
-
-    <div class="social-icons">
-        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="https://www.instagram.com/_guths"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/pedro-guths/"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/guthspedro10"><i class="fa-brands fa-github"></i></a>
-    </div>
-
-</section>
-
-
-<section id="sobre-mim" class="secao-conteudo">
-
-    <h2>ABOUT</h2>
-
-    <div class="sobre-mim-conteudo">
-
-        <div class="sobre-mim-texto">
-
-            <p>
-                Hello! My name is <strong>Pedro Henrique Valente Guths</strong>.
-                I am currently a third–semester student of <strong>Biomedical Informatics</strong> at the
-                <strong>Federal University of Health Sciences of Porto Alegre (UFCSPA)</strong>, Brazil.
-            </p>
-
-            <p>
-                My interdisciplinary education combines computer science with health sciences,
-                allowing me to understand both the technical and scientific aspects of technology
-                applied to healthcare and biological data.
-            </p>
-
-            <p>
-                I am particularly interested in <strong>backend development</strong>, focusing on
-                system architecture, business logic, and the development of efficient and scalable APIs.
-            </p>
-
-            <p>
-                Currently, I am looking for opportunities to apply and expand my knowledge in software
-                development while building projects that combine technology, data, and life sciences.
-            </p>
-
-        </div>
-
-        <div class="sobre-mim-foto">
-            <img class="minha-foto" src="img/IMG_20250319_082317_252.webp">
-        </div>
-
-    </div>
-
-</section>
-
-
-<section id="skills" class="secao-conteudo">
-
-    <h2>SKILLS</h2>
-
-    <div class="skills-container">
-
-        <div class="skill">
-            <h3>LANGUAGES</h3>
-            <div class="skill-icons">
-                <img class="java" src="https://skillicons.dev/icons?i=java">
-                <img class="java" src="https://skillicons.dev/icons?i=spring">
-                <img class="java" src="https://skillicons.dev/icons?i=mysql">
+            <div class="hero-right">
+                <h2>Backend Developer based in Porto Alegre, Brazil.</h2>
+                <p class="hero-text">
+                    Specializing in backend development, systems integration, and health information processing. Adept at transforming clinical and biological specifications into scalable, well-structured software solutions.
+                </p>
+                <div class="hero-actions">
+                    <a href="mailto:devguths@gmail.com" class="btn-primary">Talk with me</a>
+                    <a href="#projects" class="btn-secondary">See my work</a>
+                </div>
             </div>
         </div>
 
-        <div class="skill">
-            <h3>TOOLS</h3>
-            <div class="skill-icons">
-                <img class="java" src="https://skillicons.dev/icons?i=postman">
-                <img class="java" src="https://skillicons.dev/icons?i=git">
-                <img class="java" src="https://skillicons.dev/icons?i=github">
+    </header>
+
+
+    <!-- ================= 2. ABOUT & FOCUS ================= -->
+    <section id="about" class="section-block middle-block">
+
+        <div class="content-header">
+            <span class="section-tag">01 / ABOUT ME</span>
+            <h2>At the intersection of software engineering and biological data.</h2>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-card">
+                <div class="card-tag"><i class="fa-solid fa-graduation-cap"></i> Academic Focus</div>
+                <p>Undergraduate student at <strong>UFCSPA</strong>, bridging computing and healthcare through system logic, database modeling, and biomedical data processing.</p>
+            </div>
+
+            <div class="about-card">
+                <div class="card-tag"><i class="fa-solid fa-terminal"></i> Tech Stack & Tools</div>
+                <p>Proficient in <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>Python</strong>, and <strong>SQL</strong>. Experienced with Postman, Git, GitHub, Jira, and agile team workflows.</p>
             </div>
         </div>
 
-    </div>
+    </section>
 
-</section>
 
-<section id="trabalhos" class="secao-conteudo">
+    <!-- ================= 3. FORMATION & CERTIFICATIONS ================= -->
+    <section id="formation" class="section-block hero-block">
 
-    <h2>PROJECTS</h2>
+        <div class="content-header">
+            <span class="section-tag">02 / FORMATION</span>
+            <h2>Academic Education & Certification</h2>
+        </div>
 
-    <div class="trabalhos-container">
-
-        <div class="card-trabalho">
-
-            <div class="card-image">
-                <img src="img/centra-dogma-of-biology.png">
+        <div class="formation-stack">
+            <div class="full-card">
+                <div class="card-meta">
+                    <span class="time-badge">2025 – 2029</span>
+                    <span class="institution">UFCSPA</span>
+                </div>
+                <div class="card-main">
+                    <h3>Bachelor's Degree in Biomedical Informatics</h3>
+                    <p><strong>Relevant Coursework:</strong> Object-Oriented Programming, Data Structures, Algorithms, Databases, Computer Systems.</p>
+                    <p class="upcoming-courses"><strong>Upcoming:</strong> Pattern Recognition, Medical Imaging, AI in Healthcare, Computational Molecular Biology, Genomics.</p>
+                </div>
             </div>
 
-            <h3>DNA 2 Protein</h3>
-            <p>
-                Java (Spring Boot) project that transcribes DNA into RNA and translates RNA into a protein sequence.
-            </p>
+            <div class="full-card secondary-card">
+                <div class="card-meta">
+                    <span class="time-badge accent">Certification</span>
+                    <span class="institution">Duolingo English Test</span>
+                </div>
+                <div class="card-main">
+                    <h3>Upper Intermediate Proficiency (CEFR B2 Level)</h3>
+                    <p>Score: <strong>125/160</strong> in English language proficiency.</p>
+                </div>
+            </div>
+        </div>
 
-            <a href="https://github.com/guthspedro10/DNA-to-Protein-Translator" target="_blank" class="btn-projeto">
-                View on GitHub
+    </section>
+
+
+    <!-- ================= 4. EXPERIENCE ================= -->
+    <section id="experience" class="section-block middle-block">
+
+        <div class="content-header">
+            <span class="section-tag">03 / EXPERIENCE</span>
+            <h2>Work & Projects</h2>
+        </div>
+
+        <div class="timeline-wrapper">
+
+            <!-- CARD 1: UPCOMING -->
+            <div class="timeline-row">
+                <div class="timeline-dot-col">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-line"></div>
+                </div>
+                <div class="timeline-content-card">
+                    <div class="timeline-header">
+                        <div>
+                            <span class="time-badge accent">Upcoming</span>
+                            <h3>Software Developer Intern (R&D)</h3>
+                        </div>
+                        <span class="institution-tag">OpenHealth5G</span>
+                    </div>
+                    <p>Focusing on research and development of software solutions for low-latency health data transmission and smart telemetry architectures over 5G networks.</p>
+                    <ul class="experience-list">
+                        <li>Developing high-performance microservices and API gateways using Java and Spring Boot.</li>
+                        <li>Building backend streaming pipelines for real-time telemetry and clinical data processing.</li>
+                        <li>Collaborating in agile R&D workflows to design scalable, secure, and fault-tolerant biomedical systems.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="timeline-row">
+                <div class="timeline-dot-col">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-line"></div>
+                </div>
+                <div class="timeline-content-card">
+                    <div class="timeline-header">
+                        <div>
+                            <span class="time-badge">Aug 2025 – Jul 2026</span>
+                            <h3>Software Developer Intern</h3>
+                        </div>
+                        <span class="institution-tag">Levino (UFCSPA Partnership)</span>
+                    </div>
+                    <p>Developed a software system for analyzing athletes' blood test data to support injury risk identification based on biological biomarkers[cite: 1].</p>
+                    <ul class="experience-list">
+                        <li>Processed and structured laboratory biomarker data for clean system integration.</li>
+                        <li>Built and integrated backend REST APIs using Node.js and MongoDB database.</li>
+                        <li>Designed interactive dashboards and data visualizations with React and Chart.js.</li>
+                        <li>Collaborated in an agile team (5+ developers and domain experts) across bi-weekly sprints.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= 5. FEATURED PROJECTS ================= -->
+    <section id="projects" class="section-block hero-block">
+
+        <div class="content-header flex-header">
+            <div>
+                <span class="section-tag">04 / PORTFOLIO</span>
+                <h2>Featured Work</h2>
+            </div>
+            <a href="https://github.com/guthspedro10" target="_blank" class="link-github">
+                View GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+        </div>
+
+        <div class="projects-grid-full">
+
+            <a href="https://github.com/guthspedro10/DNA-to-Protein-Translator" target="_blank" class="project-card-new">
+                <div class="project-head">
+                    <div class="proj-icon"><i class="fa-solid fa-dna"></i></div>
+                    <i class="fa-solid fa-arrow-up-right-from-square arrow-top"></i>
+                </div>
+                <h3>DNA to Protein Translator</h3>
+                <p>Transcribes DNA sequences to RNA and translates them into corresponding protein structures with biological accuracy.</p>
+                <div class="tech-stack-pills">
+                    <span>Java</span>
+                    <span>Spring Boot</span>
+                    <span>SQL</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/guthspedro10/MicrobeDatabase" target="_blank" class="project-card-new">
+                <div class="project-head">
+                    <div class="proj-icon"><i class="fa-solid fa-database"></i></div>
+                    <i class="fa-solid fa-arrow-up-right-from-square arrow-top"></i>
+                </div>
+                <h3>MicrobeDatabase System</h3>
+                <p>Relational database management application built for storing, querying, and managing complex viral and bacterial data.</p>
+                <div class="tech-stack-pills">
+                    <span>Java</span>
+                    <span>Spring Boot</span>
+                    <span>SQL</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/guthspedro10/Blood-Test-Analyzer" target="_blank" class="project-card-new">
+                <div class="project-head">
+                    <div class="proj-icon"><i class="fa-brands fa-python"></i></div>
+                    <i class="fa-solid fa-arrow-up-right-from-square arrow-top"></i>
+                </div>
+                <h3>Blood Test Biomarker Analyzer</h3>
+                <p>Analytical software designed for parsing health biomarkers and biological laboratory data efficiently.</p>
+                <div class="tech-stack-pills">
+                    <span>Python</span>
+                    <span>Data Analysis</span>
+                </div>
             </a>
 
         </div>
-        <div class="card-trabalho">
 
-            <div class="card-image">
-                <img src="img/blood test.jpg">
+    </section>
+
+
+    <!-- ================= 6. CONTACT & FOOTER ================= -->
+    <section id="contact" class="section-block middle-block contact-wrapper">
+        <div class="contact-box">
+            <h2>Let's build something together.</h2>
+            <p>Feel free to reach out for projects, collaborations, or technical inquiries.</p>
+            <div class="contact-actions">
+                <a href="mailto:guthspedro@gmail.com" class="btn-primary"><i class="fa-regular fa-envelope"></i> Send Email</a>
+                <a href="https://wa.me/5551998159985" target="_blank" class="btn-secondary"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
             </div>
-
-            <h3>Blood Test Analyzer</h3>
-
-            <p>
-                The project will be refactored in Python.
-            </p>
-
-            <a href="https://github.com/guthspedro10/Blood-Test-Analyzer" target="_blank" class="btn-projeto">
-                View on GitHub
-            </a>
-
         </div>
-        <div class="card-trabalho">
 
-            <div class="card-image">
-                <img src="img/img.png">
+        <footer class="footer-strip">
+            <p>&copy; 2026 Pedro Guths. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="mailto:devguths@gmail.com">guthspedro@gmail.com</a>
             </div>
+        </footer>
+    </section>
 
-            <h3>MicrobeDatabase</h3>
-
-            <p>
-                Java (Spring Boot) system for registering and managing microorganisms such as viruses and bacteria.
-            </p>
-
-            <a href="https://github.com/guthspedro10/MicrobeDatabase" target="_blank" class="btn-projeto">
-                View on GitHub
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<section id="contato" class="secao-conteudo">
-
-    <h2>CONTACT</h2>
-
-    <div class="contato-info-container">
-
-        <div class="contato-item">
-            <i class="fa-solid fa-envelope"></i>
-            <a href="mailto:devguths@gmail.com">devguths@gmail.com</a>
-        </div>
-
-        <div class="contato-item">
-            <i class="fa-brands fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/pedro-guths/">Pedro Guths - LinkedIn</a>
-        </div>
-
-        <div class="contato-item">
-            <i class="fa-brands fa-whatsapp"></i>
-            <a href="">(+55) 51 99815-9985</a>
-        </div>
-
-        <div class="contato-item">
-            <i class="fa-brands fa-github"></i>
-            <a href="https://github.com/guthspedro10">guthspedro10 - GitHub</a>
-        </div>
-
-    </div>
-
-</section>
+</div>
 
 </body>
 

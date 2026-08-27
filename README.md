@@ -9,7 +9,7 @@ The page includes information such as:
 - Developed projects
 - Contact information
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies
 - HTML5  
 - CSS3  
 
